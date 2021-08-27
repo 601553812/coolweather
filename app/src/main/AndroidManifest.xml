@@ -5,7 +5,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="org.litepal.LitePalApplication"
+
+
+        android:name="com.hlju.coolweather.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
@@ -13,9 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoolWeather">
         <service
-            android:name=".AutoUpdateService"
+            android:name=".service.AutoUpdateService"
             android:enabled="true"
             android:exported="true"></service>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7321256933836813~7556449138"/>
 
         <activity android:name=".WeatherActivity" />
         <activity android:name=".MainActivity">

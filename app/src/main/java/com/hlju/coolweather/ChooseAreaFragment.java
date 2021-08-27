@@ -110,7 +110,7 @@ public class ChooseAreaFragment extends Fragment {
                 if (currentLevel == LEVEL_COUNTY){
                     queryCities();
                 }else if (currentLevel == LEVEL_CITY){
-                    queryCities();
+                    queryProvinces();
                 }
             }
         });

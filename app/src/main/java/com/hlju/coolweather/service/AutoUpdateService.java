@@ -1,4 +1,4 @@
-package com.hlju.coolweather;
+package com.hlju.coolweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
